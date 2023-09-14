@@ -8,9 +8,9 @@ In a file called `hello.c`, in a folder called `me`, implement a program in C th
 
 <details>
   <summary>
-    <bold>
+    <span style="font-weight: bold;>
     "Hints"
-    </bold>
+    </span>
   </summary>
 </details>
 
