@@ -8,8 +8,8 @@ In a file called `hello.c`, in a folder called `me`, implement a program in C th
 
 <details>
   <summary>
-    <span style="font-weight: bold;>
-    "Hints"
+    <span style="font-weight: bold;">
+    Hints
     </span>
   </summary>
 </details>
