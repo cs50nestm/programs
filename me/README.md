@@ -8,8 +8,9 @@ In a file called `hello.c`, in a folder called `me`, implement a program in C th
 
 <details>
   <summary>
-    ::marker
+    <bold>
     "Hints"
+    </bold>
   </summary>
 </details>
 
