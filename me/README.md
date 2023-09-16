@@ -78,3 +78,23 @@ Here’s a “walkthrough” (i.e., tour) of this problem, if you’d like a ver
 <div class="iframe_container">
   <iframe src="https://www.youtube.com/embed/wSk1KSDUEYA?modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
 </div>
+
+## How to Test Your Code
+Execute the below to evaluate the correctness of your code using check50, a command-line program that will output happy faces whenever your code passes CS50’s automated tests and sad faces whenever it doesn’t! But be sure to compile and test it yourself as well!
+
+```
+check50 cs50/problems/2023/x/hello
+```
+
+Execute the below to evaluate the style of your code using `style50`, a command-line program that will output additions (in green) and deletions (in red) that you should make to your program in order to improve its style. If you have trouble seeing those colors, `style50` supports other modes too!
+
+```
+style50 hello.c
+```
+
+## How to Submit
+In your terminal, execute the below to submit your work.
+
+```
+submit50 cs50/problems/2023/x/hello
+```
