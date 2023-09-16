@@ -12,6 +12,9 @@ In a file called `hello.c`, in a folder called `me`, implement a program in C th
     Hints
     </span>
   </summary>
+  Recall that you can get a string from a user with get_string, which is declared in cs50.h.
+Recall that you can print a string with printf, which is declared in stdio.h.
+Recall that you can format a string with printf with %s.
 </details>
 
 <iframe src="https://asciinema.org/a/Jn4egWrG0Rvuzo9d2Rs0qpkcL/iframe?autoplay=1&amp;loop=1&amp;cols=80&amp;rows=12" id="asciicast-iframe-Jn4egWrG0Rvuzo9d2Rs0qpkcL" name="asciicast-iframe-Jn4egWrG0Rvuzo9d2Rs0qpkcL" scrolling="no" allowfullscreen="true" style="overflow: hidden; margin: 0px; border: 0px; display: inline-block; width: 100%; float: none; visibility: visible; height: 305px;"></iframe>
