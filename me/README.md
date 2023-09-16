@@ -13,7 +13,7 @@ In a file called `hello.c`, in a folder called `me`, implement a program in C th
     </span>
   </summary>
   <ul>
-    <li>Recall that you can get a string from a user with get_string, which is declared in cs50.h.</li>
+    <li>Recall that you can get a string from a user with `get_string`, which is declared in cs50.h.</li>
     <li>Recall that you can print a string with printf, which is declared in stdio.h.</li>
     <li>Recall that you can format a string with printf with %s.</li>
   </ul>
