@@ -82,6 +82,7 @@ Here’s a “walkthrough” (i.e., tour) of this problem, if you’d like a ver
   <iframe src="https://www.youtube.com/embed/wSk1KSDUEYA?modestbranding=1&amp;rel=0&amp;showinfo=0&amp" frameborder="0" allow="accelerometer; autoplay; showinfo=0; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe>
 </div>
 
+
 <details>
   <summary>
     <span style="font-weight: bold;">
@@ -90,7 +91,7 @@ Here’s a “walkthrough” (i.e., tour) of this problem, if you’d like a ver
   </summary>
   <ul>
     <li>Don’t recall how to prompt the user for their name?<br>
-Recall that you can use <code>get_string</code> as follows, storing its return value in a variable called name of type <code>string</code>.<br>
+Recall that you can use <code>get_string</code> as follows, storing its return value in a variable called name of type <code>string</code>.<br><br>
     <code>string name = get_string("What's your name? ");</code></li>
     <li>Recall that you can print a <code>string</code> with <code>printf</code>, which is declared in <code>stdio.h</code>.</li>
     <li>Recall that you can format a <code>string</code> with <code>printf</code> with <code>%s</code>.</li>
