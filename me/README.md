@@ -40,3 +40,35 @@ In a file called `hello.c`, in a folder called `me`, implement a program in C th
 ## Demo
 
 <iframe src="https://asciinema.org/a/Jn4egWrG0Rvuzo9d2Rs0qpkcL/iframe?autoplay=1&amp;loop=1&amp;cols=80&amp;rows=12" id="asciicast-iframe-Jn4egWrG0Rvuzo9d2Rs0qpkcL" name="asciicast-iframe-Jn4egWrG0Rvuzo9d2Rs0qpkcL" scrolling="no" allowfullscreen="true" style="overflow: hidden; margin: 0px; border: 0px; display: inline-block; width: 100%; float: none; visibility: visible; height: 305px;"></iframe>
+
+## How to Begin
+Execute `cd` by itself in your terminal window. You should find that your terminal window’s prompt resembles the below:
+
+```
+$
+```
+
+Next execute
+
+```
+mkdir me
+```
+
+to make a folder called `me` in your codespace.
+
+Then execute
+
+```
+cd me
+```
+
+to change directories into that folder. You should now see your terminal prompt as `me/ $`. You can now execute
+
+```
+code hello.c
+```
+
+to create a file called `hello.c` in which you can write your code.
+
+## Walkthrough
+Here’s a “walkthrough” (i.e., tour) of this problem, if you’d like a verbal overview of what to do too!
