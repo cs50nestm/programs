@@ -102,4 +102,4 @@ In your terminal, execute the below to submit your work.
 submit50 cs50/problems/2023/x/hello
 ```
 
-You an then go to `submit.cs50.io` to see that your program submitted properly, as well as check your correctness and style scores. You may resubmit as many times as you like before the deadline.
+You can then go to `submit.cs50.io` to see that your program submitted properly, as well as check your correctness and style scores. You may resubmit as many times as you like before the deadline.
