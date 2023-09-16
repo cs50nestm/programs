@@ -45,7 +45,7 @@ In a file called `hello.c`, in a folder called `me`, implement a program in C th
 
 ## How to Begin
 
-Log into [cs50.dev](https://cs50.dev) using your GitHub account.
+Log into [cs50.dev](https://cs50.dev) using your GitHub account. Once your “codespace” loads, you should see that it is divided into three regions. Toward the top is your “text editor”, where you’ll write all of your programs. Toward the bottom of is a “terminal window”, a command-line interface (CLI) that allows you to explore your codespace’s files and directories (aka folders), compile code, and run programs. And on the left is your file “explorer,” a graphical user interface (GUI) via which you can also explore your codespace’s files and directories.
 
 Execute `cd` by itself in your terminal window. You should find that your terminal window’s prompt resembles the below:
 
@@ -101,3 +101,5 @@ In your terminal, execute the below to submit your work.
 ```
 submit50 cs50/problems/2023/x/hello
 ```
+
+You an then go to `submit.cs50.io` to see that your program submitted properly, as well as check your correctness and style scores. You may resubmit as many times as you like before the deadline.
