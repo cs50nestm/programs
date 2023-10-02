@@ -40,6 +40,8 @@ F: 212.0
 
 ## Demo
 
+![FahrenheitDemo](fahrenheitDemo.gif)
+
 ## Getting Started
 
 Log into [cs50.dev](https://cs50.dev) using your GitHub account. 
