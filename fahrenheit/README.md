@@ -84,6 +84,7 @@ to create a file called `fahrenheit.c` in which you can write your code.
 <br>
 <p>Even though this program won’t do anything, it should at least compile with make!</p>
   
+<!--  
 ```c
 #include <cs50.h>
 #include <stdio.h>
@@ -93,6 +94,7 @@ int main(void)
 
 }
 ```
+-->
 
 <img src="code1.png" width="100%">
 
@@ -115,6 +117,7 @@ int main(void)
 
 <p>So write some pseudcode as comments that remind you to do just that:</p>
 
+<!--  
 ```c
 #include <cs50.h>
 #include <stdio.h>
@@ -128,6 +131,10 @@ int main(void)
     // Print out the result
 }
 ```
+-->
+
+<img src="code2.png" width="100%">
+
 </details>
 
 
@@ -140,6 +147,7 @@ int main(void)
 <br>
 <p>First consider what datatype the variable that holds degrees Celsius should be. Since we may want to enter a number with a decimal for degrees Celsius, we need to use a `float`. So go ahead and declare a new `float` as below, and use `get_float` to prompt the user for a value. </p>
 
+<!--  
 ```c
 #include <cs50.h>
 #include <stdio.h>
@@ -154,6 +162,9 @@ int main(void)
     // Print out the result
 }
 ```
+-->
+
+<img src="code3.png" width="100%">
 
 <p>Then declare another float to hold degrees Fahrenheit, and assign the result of the temperature conversion formula (given above).</p>
 
