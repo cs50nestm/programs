@@ -133,7 +133,7 @@ int main(void)
     </span>
   </summary>
 <br>
-<p>First consider what datatype the variable that holds degrees Celsius should be. Recall that an `int` only holds a whole number and a `float` holds a number with a decimal. So go ahead and declare a new `float` as below, and use `get_float` to prompt the user for a value. </p>
+<p>First consider what datatype the variable that holds degrees Celsius should be. Since we may want to enter a number with a decimal for degrees Celsius, we need to use a `float`. So go ahead and declare a new `float` as below, and use `get_float` to prompt the user for a value. </p>
 
 ```c
 #include <cs50.h>
