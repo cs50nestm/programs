@@ -94,6 +94,8 @@ int main(void)
 }
 ```
 
+</details>
+
 <details>
   <summary>
     <span style="font-weight: bold;">
