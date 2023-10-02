@@ -46,9 +46,13 @@ First, write in `pseudocode.txt` at right some pseudocode that implements this p
 
 Odds are your pseudocode will use (or imply using!) one or more functions, operators, and variables.
 
-{% spoiler %}
-
-<p>
+<details>
+  <summary>
+    <span style="font-weight: bold;">
+    Hints
+    </span>
+  </summary>
+  <p>
   There's more than one way to do this, so here's just one!
 </p>
 
@@ -62,7 +66,8 @@ Odds are your pseudocode will use (or imply using!) one or more functions, opera
   It's okay to edit your own after seeing this pseudocode here, but don't simply copy/paste ours into your own!
 </p>
 
-{% endspoiler %}
+</details>
+
 
 ## Prompting for Input
 
