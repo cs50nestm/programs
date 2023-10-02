@@ -18,8 +18,6 @@ In the past, if you wanted to know what the outdoor temperature was, you had to 
 
 Prior to that, you just stood outside, but we digress. Nowadays, it’s a fairly trivial exercise to pull open a weather app on your phone or visit a weather-reporting website to get the current temperature and the five-day forecast. No need to mess around with one of the above circular dials or its tube-of-mercury cousin.
 
-Depending on where you live in the world, your country uses one of two major temperature scales. If you live in the United States (and don’t spend most of your day working in a science lab), it’s likely that you’re familiar with the Fahrenheit scale, and so if you hear that it’s 30° outside you’re probably putting on a heavy coat and warm pants and bracing yourself for the possibility of snow, because that means it’s quite cold, given that the freezing point of water is 32°. On the other hand, it’s not until the temperature hits 212° that water boils.
-
 In practically every other country of the world (or if you live in the United States and do in fact spend most of your day working in a science lab), you’re probably most familiar with the Celsius or centigrade scale. In that case, if you hear that it’s 30° outside you’re probably going to rummage through your closet for a swimsuit and put on some sunblock, because it’s a beautiful beach day. On the Celsius scale, 0° is the freezing point of water, and 100° is the boiling point.
 
 We acknowledge that with most apps that tell you the weather, it’s fairly simple to press that switch that switches the temperature display from Fahrenheit to Celsius (or vice versa), but before that process was automated for us, one either had to memorize some of the more common conversion points or had to use a mathematical formula to convert from one scale to another, which is important if you plan on traveling internationally.
@@ -40,35 +38,7 @@ C: 100
 F: 212.0
 ```
 
-## Pseudocode
-
-First, you may want to write some pseudocode that implements this program, even if not (yet!) sure how to write it in code. 
-
-Odds are your pseudocode will use (or imply using!) one or more functions, operators, and variables.
-
-<details>
-  <summary>
-    <span style="font-weight: bold;">
-    Hints
-    </span>
-  </summary>
-  <br>
-  <p>
-  There's more than one way to do this, so here's just one!
-</p>
-
-<ol>
-  <li>Prompt for degrees Celsius and save this in a variable</li>
-  <li>Use this value to calculate degrees Fahrenheit and save in another variable</li>
-  <li>Print out the result</li>
-</ol>
-
-<p>
-  It's okay to edit your own after seeing this pseudocode here, but don't simply copy/paste ours into your own!
-</p>
-
-</details>
-
+## Demo
 
 ## Getting Started
 
@@ -123,6 +93,70 @@ int main(void)
 
 }
 ```
+</details>
+
+<details>
+  <summary>
+    <span style="font-weight: bold;">
+    Write some pseudocode before writing more code
+    </span>
+  </summary>
+<br>
+<p>If unsure how to solve the problem itself, break it down into smaller problems that you can probably solve first. For instance, this problem is really three small problems:</p>
+
+<ol>
+  <li>Prompt for degrees Celsius and save this in a variable</li>
+  <li>Use this value to calculate degrees Fahrenheit and save in another variable</li>
+  <li>Print out the result</li>
+</ol>
+
+<p>So write some pseudcode as comments that remind you to do just that:</p>
+
+```c
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+{
+    // Prompt for degrees Celsius and save this in a variable
+
+    // Use this value to calculate degrees Fahrenheit and save in another variable
+
+    // Print out the result
+}
+```
+</details>
+
+
+<details>
+  <summary>
+    <span style="font-weight: bold;">
+    Convert the pseudocode to code
+    </span>
+  </summary>
+<br>
+<p>First consider what datatype the variable that holds degrees Celsius should be. Recall that an `int` only holds a whole number and a `float` holds a number with a decimal. So you can declare a new `float` as below, and use `get_float` to promt the user for a value. </p>
+
+```c
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+{
+    // Prompt for degrees Celsius and save this in a variable
+    float celsius = get_float("C: ");
+
+    // Use this value to calculate degrees Fahrenheit and save in another variable
+
+    // Print out the result
+}
+```
+</details>
+
+Declare another float to hold degrees Fahrenheit, and assign the result of the temperature conversion formula (given above).
+
+Finally, print out the result with exactly one decimal place.
+
 <br>
   
 <p>Printf can be used to specify how many places after the decimal point you wish to display to the user. For example to print a float with 2 decimal places you would type:</p>
