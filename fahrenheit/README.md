@@ -111,7 +111,7 @@ Now let's begin to write some code, using your pseudocode as a reference!
     Write some code that you know will compile
     </span>
   </summary>
-
+<br>
 <p>Even though this program won’t do anything, it should at least compile with make!</p>
 
 ```c
@@ -123,7 +123,6 @@ int main(void)
 
 }
 ```
-  
 <br>
   
 <p>Printf can be used to specify how many places after the decimal point you wish to display to the user. For example to print a float with 2 decimal places you would type:</p>
