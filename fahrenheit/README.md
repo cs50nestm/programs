@@ -90,13 +90,15 @@ Finally, print out the result with exactly one decimal place.
     Hint
     </span>
   </summary>
-  Printf can be used to specify how many places after the decimal point you wish to display to the user. For example to print a float with 2 decimal places you would type:
+  
+Printf can be used to specify how many places after the decimal point you wish to display to the user. For example to print a float with 2 decimal places you would type:
 
 ```c
 printf("%.2f\n", number);
 ```
 
 Can you see why this prints with 2 decimal places? Now adapt this to print degrees Fahrenheit (don't forget to start the output with "F: ") to exactly one decimal place.
+
 </details>
 
 
