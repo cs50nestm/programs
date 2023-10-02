@@ -42,7 +42,7 @@ F: 212.0
 
 ## Pseudocode
 
-First, write in `pseudocode.txt` at right some pseudocode that implements this program, even if not (yet!) sure how to write it in code. 
+First, you may want to write some pseudocode that implements this program, even if not (yet!) sure how to write it in code. 
 
 Odds are your pseudocode will use (or imply using!) one or more functions, operators, and variables.
 
@@ -84,17 +84,22 @@ Declare another float to hold degrees Fahrenheit, and assign the result of the t
 
 Finally, print out the result with exactly one decimal place.
 
-{% spoiler "hint" %}
-
-Printf can be used to specify how many places after the decimal point you wish to display to the user. For example to print a float with 2 decimal places you would type:
+<details>
+  <summary>
+    <span style="font-weight: bold;">
+    Hint
+    </span>
+  </summary>
+  Printf can be used to specify how many places after the decimal point you wish to display to the user. For example to print a float with 2 decimal places you would type:
 
 ```c
 printf("%.2f\n", number);
 ```
 
 Can you see why this prints with 2 decimal places? Now adapt this to print degrees Fahrenheit (don't forget to start the output with "F: ") to exactly one decimal place.
+</details>
 
-{% endspoiler %}
+
 
 ## Testing
 ### Correctness
