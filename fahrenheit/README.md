@@ -72,8 +72,6 @@ code fahrenheit.c
 
 to create a file called `fahrenheit.c` in which you can write your code.
 
-Now let's begin to write some code, using your pseudocode as a reference!
-
 ## Advice
 <details>
   <summary>
