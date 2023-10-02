@@ -189,7 +189,7 @@ printf("%.2f\n", number);
 ```
 -->
 
-<img src="code1.png" width="100%">
+<img src="code4.png" width="100%">
 
 <p>Can you see why this prints with 2 decimal places? Now adapt this to print degrees Fahrenheit (don't forget to start the output with "F: ") to exactly one decimal place.</p>
 
