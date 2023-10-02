@@ -52,6 +52,7 @@ Odds are your pseudocode will use (or imply using!) one or more functions, opera
     Hints
     </span>
   </summary>
+  <br>
   <p>
   There's more than one way to do this, so here's just one!
 </p>
