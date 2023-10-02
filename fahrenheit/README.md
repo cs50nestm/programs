@@ -197,7 +197,7 @@ If you get errors when attempting to compile, and you aren't sure how to solve, 
 
 ## Testing
 ### Correctness
-Before turning in your solution, be sure to test the correctness of your program with check50, by executing the below.
+Execute the below to evaluate the correctness of your code using check50, a command-line program that will output happy faces whenever your code passes CS50’s automated tests and sad faces whenever it doesn’t! But be sure to compile and test it yourself as well!
 
 ```
 check50 cs50/problems/2019/ap/fahrenheit
@@ -205,7 +205,7 @@ check50 cs50/problems/2019/ap/fahrenheit
 
 ### Style
 
-If you pass all the check50 test cases, and get a green smiley face when you run things through style50, as with:
+Execute the below to evaluate the style of your code using `style50`, a command-line program that will output additions (in green) and deletions (in red) that you should make to your program in order to improve its style. 
 
 ```
 style50 fahrenheit.c
@@ -215,7 +215,7 @@ If not, don’t worry: it’s just time for a little bit of debugging and/or cle
 
 ## How to Submit
 
-Execute the below, logging in with your GitHub username and password when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your password.
+In your terminal, execute the below to submit your work.
 
 ```
 submit50 cs50/problems/2019/ap/fahrenheit
