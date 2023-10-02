@@ -94,6 +94,8 @@ int main(void)
 }
 ```
 
+<img src="code1.png" width="100%">
+
 </details>
 
 <details>
