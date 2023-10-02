@@ -135,7 +135,7 @@ int main(void)
     </span>
   </summary>
 <br>
-<p>First consider what datatype the variable that holds degrees Celsius should be. Recall that an `int` only holds a whole number and a `float` holds a number with a decimal. So you can declare a new `float` as below, and use `get_float` to promt the user for a value. </p>
+<p>First consider what datatype the variable that holds degrees Celsius should be. Recall that an `int` only holds a whole number and a `float` holds a number with a decimal. So go ahead and declare a new `float` as below, and use `get_float` to prompt the user for a value. </p>
 
 ```c
 #include <cs50.h>
@@ -151,38 +151,17 @@ int main(void)
     // Print out the result
 }
 ```
-</details>
 
-Declare another float to hold degrees Fahrenheit, and assign the result of the temperature conversion formula (given above).
+<p>Then declare another float to hold degrees Fahrenheit, and assign the result of the temperature conversion formula (given above).</p>
 
-Finally, print out the result with exactly one decimal place.
-
-<br>
-  
-<p>Printf can be used to specify how many places after the decimal point you wish to display to the user. For example to print a float with 2 decimal places you would type:</p>
-
-```c
-printf("%.2f\n", number);
-```
-
-<p>Can you see why this prints with 2 decimal places? Now adapt this to print degrees Fahrenheit (don't forget to start the output with "F: ") to exactly one decimal place.</p>
+<p>Finally, print out the result with exactly one decimal place.</p>
 
 </details>
-
-First, you will need to declare a new floating point variable to hold degrees Celsius.
-
-Do recall that if you include `<cs50.h>` atop your fahrenheit.c file, you will have access to a function called get_float, which will allow the user to input a floating-point value (a number with a decimal point in it, also known as a real number).The parameters of the get functions will display a prompt for users.
-
-Now make sure to assign the value of this input function to your new Celsius variable.
-
-Declare another float to hold degrees Fahrenheit, and assign the result of the temperature conversion formula (given above). 
-
-Finally, print out the result with exactly one decimal place.
 
 <details>
   <summary>
     <span style="font-weight: bold;">
-    Hint
+    Forget how to print?
     </span>
   </summary>
 <br>
@@ -197,6 +176,23 @@ printf("%.2f\n", number);
 
 </details>
 
+## Compiling and Executing
+
+Remember you must compile your code to convert it to binary code before you can execute it!
+
+Compile with:
+
+```
+make fahrenheit
+```
+
+Execute as below:
+
+```
+./fahrenheit
+```
+
+If you get errors when attempting to compile, and you aren't sure how to solve, copy and paste the error code into the CS50 Duck!
 
 
 ## Testing
