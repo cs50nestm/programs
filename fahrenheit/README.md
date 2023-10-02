@@ -83,9 +83,8 @@ to create a file called `fahrenheit.c` in which you can write your code.
   </summary>
 <br>
 <p>Even though this program won’t do anything, it should at least compile with make!</p>
-
-
-<pre><code lang="c">
+  
+```c
 #include <cs50.h>
 #include <stdio.h>
 
@@ -93,8 +92,7 @@ int main(void)
 {
 
 }
-</code></pre>
-</details>
+```
 
 <details>
   <summary>
