@@ -6,8 +6,8 @@ Implement a program that converts degrees in Celsius to Fahrenheit, per the belo
 
 ```
 $ ./fahrenheit
-C: 0
-F: 32.0
+C: 50.7
+F: 123.3
 ```
 
 ## Turning Up The Heat
