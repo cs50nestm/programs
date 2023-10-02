@@ -70,11 +70,73 @@ Odds are your pseudocode will use (or imply using!) one or more functions, opera
 </details>
 
 
-## Prompting for Input
+## Getting Started
 
-Whatever your pseudocode, let's first write only the C code that prompts (and re-prompts, as needed) the user for input. 
+Log into [cs50.dev](https://cs50.dev) using your GitHub account. 
 
-First, declare a new floating point variable to hold degrees Celsius.
+Execute `cd` by itself in your terminal window. You should find that your terminal window’s prompt resembles the below:
+
+```
+$
+```
+
+Next execute
+
+```
+mkdir fahrenheit
+```
+
+to make a folder called `fahrenheit` in your codespace.
+
+Then execute
+
+```
+cd fahrenheit
+```
+
+to change directories into that folder. You should now see your terminal prompt as `fahrenheit/ $`. You can now execute
+
+```
+code fahrenheit.c
+```
+
+to create a file called `fahrenheit.c` in which you can write your code.
+
+Now let's begin to write some code, using your pseudocode as a reference!
+
+## Advice
+<details>
+  <summary>
+    <span style="font-weight: bold;">
+    Write some code that you know will compile
+    </span>
+  </summary>
+
+<p>Even though this program won’t do anything, it should at least compile with make!</p>
+
+```c
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+{
+
+}
+```
+  
+<br>
+  
+<p>Printf can be used to specify how many places after the decimal point you wish to display to the user. For example to print a float with 2 decimal places you would type:</p>
+
+```c
+printf("%.2f\n", number);
+```
+
+<p>Can you see why this prints with 2 decimal places? Now adapt this to print degrees Fahrenheit (don't forget to start the output with "F: ") to exactly one decimal place.</p>
+
+</details>
+
+First, you will need to declare a new floating point variable to hold degrees Celsius.
 
 Do recall that if you include `<cs50.h>` atop your fahrenheit.c file, you will have access to a function called get_float, which will allow the user to input a floating-point value (a number with a decimal point in it, also known as a real number).The parameters of the get functions will display a prompt for users.
 
