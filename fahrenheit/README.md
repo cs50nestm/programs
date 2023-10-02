@@ -182,7 +182,9 @@ int main(void)
   
 <p>Printf can be used to specify how many places after the decimal point you wish to display to the user. For example to print a float with 2 decimal places you would type:</p>
 
-<code>printf("%.2f\n", number);</code>
+```c
+printf("%.2f\n", number);
+```
 
 <p>Can you see why this prints with 2 decimal places? Now adapt this to print degrees Fahrenheit (don't forget to start the output with "F: ") to exactly one decimal place.</p>
 
