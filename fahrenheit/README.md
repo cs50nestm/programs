@@ -40,7 +40,7 @@ F: 212.0
 
 ## Demo
 
-![FahrenheitDemo](fahrenheitDemo.gif)
+![FahrenheitDemo](fahrenheit.gif)
 
 ## Getting Started
 
