@@ -211,7 +211,7 @@ Execute as below:
 ./fahrenheit
 ```
 
-If you get errors when attempting to compile, and you aren't sure how to solve, copy and paste the error code into the CS50 Duck!
+If you get errors when attempting to compile, and you aren't sure how to solve, copy and paste the error code into the CS50 Duck! If unsure where to find the duck in your codespace, go to [cs50.ai](https://cs50.ai).
 
 
 ## Testing
@@ -242,6 +242,6 @@ submit50 cs50/problems/2019/ap/fahrenheit
 
 You may resubmit any problem as many times as you’d like before the deadline.
 
-Your submission should be graded for correctness within 2 minutes, at which point your score will appear at submit.cs50.io!
+Your submission should be graded for correctness within 2 minutes, at which point your score will appear at [submit.cs50.io](https://submit.cs50.io)!
 
 This was Fahrenheit.
