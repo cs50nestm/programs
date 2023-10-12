@@ -18,7 +18,9 @@ It turns out that the last of an ISBN-10’s digits is a "check digit," otherwis
 
 Per the International ISBN Agency’s ISBN Users' Manual, "The check digit is the last digit of an ISBN. It is calculated on a modulus 11 with weights 10-2, using X in lieu of 10 where ten would occur as a check digit."
 
-Yes, but what does that mean? The manual elaborates. "This means that each of the first nine digits of the ISBN—​excluding the check digit itself—​is multiplied by a number ranging from 10 to 2 and that the resulting sum of the products, plus the check digit, must be divisible by 11 without a remainder."
+![ORLY](orly.jpeg)
+
+Yes rly, but what does that mean? The manual elaborates. "This means that each of the first nine digits of the ISBN—​excluding the check digit itself—​is multiplied by a number ranging from 10 to 2 and that the resulting sum of the products, plus the check digit, must be divisible by 11 without a remainder."
 
 Okay, better, but still a bit unclear. Let’s define the check digit in terms of a formula. Fortunately, thanks to "modular arithmetic," we can simplify the Agency’s formal definition using weights ranging from 1 to 9 instead of 10 to 2. In fact, it’s really quite simple. If x<sub>1</sub> represents an ISBN-10’s first digit and x<sub>10</sub> its last, it turns out that:
 
