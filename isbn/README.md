@@ -46,6 +46,8 @@ So, computing this check digit’s not hard, but it does get a bit tedious by ha
 
 ## Demo
 
+![ISBNDemo](isbnDemo.gif)
+
 ## Getting Started
 
 Log into [cs50.dev](https://cs50.dev) using your GitHub account. 
