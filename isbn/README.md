@@ -30,7 +30,7 @@ In other words, to compute an ISBN-10’s tenth digit, multiply its first digit 
 
 ## I S BN Calculatin'
 
-Let’s try all this out. The ISBN-10 for the *Absolute Beginner’s Guide to C*, one of the course’s recommended books, is 0-789-75198-4, the tenth digit of which is, obviously, 4. But is the syllabus right? Well, let’s first take that sum using the ISBN-10’s first nine digits (highlighted in bold):
+Let’s try all this out. The ISBN-10 for the *Absolute Beginner’s Guide to C*, is 0-789-75198-4, the tenth digit of which is, obviously, 4. But is the syllabus right? Well, let’s first take that sum using the ISBN-10’s first nine digits (highlighted in bold):
 
 1·**0** + 2·**7** + 3·**8** + 4·**9** + 5·**7** + 6·**5** + 7·**1** + 8·**9** + 9·**8** = 290
 
