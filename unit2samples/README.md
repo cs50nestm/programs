@@ -50,14 +50,17 @@ int main(void)
     string s1 = get_string("Word 1: ");
     string s2 = get_string("Word 2: ");
 
+    // If an exact match, catch it here
     if (strcasecmp(s1, s2) == 0)
     {
         printf("EXACT MATCH\n");
         return 0;
     }
 
+    // Declare an array which will associate each letter with the index
     int characters[ALPHASIZE] = {0};
 
+    // Add 1 to corresponding place in array for each letter
     for (int i = 0, len = strlen(s1); i < len; i++)
     {
         if (isalpha(s1[i]))
@@ -71,6 +74,7 @@ int main(void)
         }
     }
 
+    // Subtract 1 from corresponding place in array for each letter
     for (int i = 0, len = strlen(s2); i < len; i++)
     {
         if (isalpha(s2[i]))
@@ -84,6 +88,7 @@ int main(void)
         }
     }
 
+    // If all elements in array are zero, it's an Anagram
     for (int i = 0; i < ALPHASIZE; i++)
     {
         if (characters[i] != 0)
