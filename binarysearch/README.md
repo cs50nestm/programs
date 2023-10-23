@@ -40,7 +40,7 @@ Binary search has what we call a logarithmic running time, **O(log n)**, since w
 
 Practice writing a **binary search** algorithm by completing the function in `binary.c`.
 
-First, download the distro code by copying and pasting `https://raw.githubusercontent.com/cs50nestm/cs50labs/2022/binarysearch/binary.c` into your terminal.
+First, download the distro code by copying and pasting `wget https://raw.githubusercontent.com/cs50nestm/cs50labs/2022/binarysearch/binary.c` into your terminal.
 
 The function prototype is already defined as:
 
