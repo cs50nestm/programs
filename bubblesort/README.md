@@ -16,8 +16,6 @@ the list, and **swapping** them if they are **out of order**.
 
 We see that, after our first pass through the array, the numbers are not completed sorted, but the largest number, 6, is at the end. Since we start swapping from left to right, the largest number will always end up at the end.
 
-{% next %}
-
 The pseudocode for **bubble sort** would look like this:
 
 ```
