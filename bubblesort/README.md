@@ -40,7 +40,7 @@ Execute
 wget https://raw.githubusercontent.com/cs50nestm/cs50labs/2022/bubblesort/bubble.c
 ```
 
-to download this problems distro code.
+to download this problem's distro code.
 
 Complete the `bubble_sort()` function to sort the supplied array. 
 
