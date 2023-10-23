@@ -57,11 +57,11 @@ The function definition is located after the `main()` function closes. Complete 
 <br>
   
 <ol>
-<li>Consider using a for loop, to iterate through the array. For instance: `for (int i = 0; i < size; i++)` could work to access each element in the array.</li>
+<li>Consider using a for loop, to iterate through the array. For instance: <code>for (int i = 0; i < size; i++)</code> could work to access each element in the array.</li>
   <ul>
-    <li>If we find a match  `arr[i] == n` we `return true`</li>
+    <li>If we find a match  <code>arr[i] == n</code> we <code>return true</code></li>
   </ul>
-<li>When the for loop completes, it means we searched through till the end of the array, and didn't find a match, so `return false`</li>
+<li>When the for loop completes, it means we searched through till the end of the array, and didn't find a match, so <code>return false</code></li>
 </ol>
 </details>
 
