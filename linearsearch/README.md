@@ -36,7 +36,9 @@ We can see that **linear search** is not usually an efficient algorithm, especia
 
 ## Your Turn
 
-Practice writing a **linear search** algorithm by completing the function in `linear.c`. The purpose of the program is to determine if a number that is input matches any of the numbers on a particular bingo card.
+You will practice writing a **linear search** algorithm by completing the function in `linear.c`. The purpose of the program is to determine if a number that is input matches any of the numbers on a particular bingo card.
+
+To start, copy and paste `wget https://raw.githubusercontent.com/cs50nestm/cs50labs/2022/linearsearch/linear.c` into your terminal to download this lab’s distribution code. 
 
 The function prototype is already defined as:
 
