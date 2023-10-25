@@ -29,7 +29,15 @@ Even though we are doing fewer swaps with **selection sort** than we are in **bu
 
 ## Your Turn
 
-Complete the `selection_sort()` function on the right to sort the supplied array. 
+Execute
+
+```
+wget https://github.com/cs50nestm/cs50labs/blob/2022/selectionsort/selection.c
+```
+
+to download this problem's distro code.
+
+Now, you will complete the `selection_sort()` function to sort the supplied array. 
 
 Note that this function has a return type of `void`. This means the function doesn't return anything. What it does do is sort the array.
 
@@ -57,5 +65,27 @@ Once you have your function sorting properly, is there something else you can do
 While it might seem like a good idea to check if the entire array is sorted after every successful swap to avoid additional passes through the array, this would come at a cost, because then there would be even more comparisons to be made. 
 
 This is why we say that the worst case and best case scenarios for **selection sort** are both on the order of n<sup>2</sup>.
+
+## How to Test Your Code
+
+You can check your code using check50, a program that CS50 will use to test your code when you submit, by typing in the following at the $ prompt. But be sure to test it yourself as well!
+
+```
+check50 cs50nestm/checks/2022/selection
+```
+
+To evaluate that the style of your code, type in the following at the $ prompt.
+
+```
+style50 selection.c
+```
+
+## How to Submit
+
+In your terminal, execute the below to submit your work.
+
+```
+submit50 cs50nestm/checks/2022/selection
+```
 
 [Download our CS50 Reference sheet on Selection Sort](https://cs50.harvard.edu/ap/2020/assets/pdfs/selection_sort.pdf)
