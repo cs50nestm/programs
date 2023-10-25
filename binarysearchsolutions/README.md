@@ -3,7 +3,7 @@
 ### Using a Loop
 
 ```c
-// implement binary search function
+// implement binary search function using a while loop
 
 #include <cs50.h>
 #include <stdio.h>
@@ -58,7 +58,7 @@ bool bin_search(int value, int values[], int size)
 ### Using Recursion
 
 ```c
-// implement binary search function
+// implement binary search function using recursion
 
 #include <cs50.h>
 #include <stdio.h>
