@@ -48,7 +48,6 @@ The `print_array()` function is given to you to print out the array after you've
     <li>Create an inner <code>for</code> loop. If you use <code>j</code> for your counter, you could start <code>j</code> at <code>i + 1</code> and repeat through the last element in the array.</li> 
     <li>Compare each element in the array to the element stored at index, <code>min</code>. If <code>arr[j] < arr[min]</code>, assign to <code>min</code> the value of <code>j</code>, since the element at this index is the smallest so far.</li>
     <li>After this inner <code>for</code> loop complete, the value stored in <code>min</code> will be the index of the smallest element in the unsorted portion of the array. Now it's time to swap <code>arr[min]</code> with <code>arr[i]</code>.</li>
-</li>
   </ol>
 </details>
 
