@@ -1,6 +1,4 @@
-# Binary Search
-
-### Using a Loop
+# Binary Search (Loop)
 
 ```c
 // implement binary search function
@@ -55,7 +53,7 @@ bool bin_search(int value, int values[], int size)
 }
 ```
 
-### Using Recursion
+# Binary Search (Recursion)
 
 ```c
 // implement binary search function
