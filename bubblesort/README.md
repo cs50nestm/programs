@@ -80,6 +80,27 @@ Once you have your function sorting properly, see if you can make it more effici
   You may want to include a counter for the amount of swaps made. You can reset the counter to 0 just before you execute the inner <code>for</code> loop. After the inner loop is finished, check to see if <code>counter == 0</code>. If this is true there are no more swaps to be made and you can execute the <code>break</code> statement, which will terminate the outer loop.
 </details>
 
+## How to Test Your Code
+
+You can check your code using check50, a program that CS50 will use to test your code when you submit, by typing in the following at the $ prompt. But be sure to test it yourself as well!
+
+```
+check50 cs50nestm/checks/2022/bubble
+```
+
+To evaluate that the style of your code, type in the following at the $ prompt.
+
+```
+style50 bubble.c
+```
+
+## How to Submit
+
+In your terminal, execute the below to submit your work.
+
+```
+submit50 cs50nestm/checks/2022/bubble
+```
 
 
 [Download our CS50 Reference sheet on Bubble Sort](https://cs50.harvard.edu/ap/2020/assets/pdfs/bubble_sort.pdf)
