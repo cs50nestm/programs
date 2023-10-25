@@ -57,9 +57,9 @@ The `print_array()` function is given to you to print out the array after you've
 <br>
   
 <ol>
-  <li>You might want to start this by simply using an outer `for` loop that iterates `n - 1` times, which corresponds to `n - 1` passes through the array.</li>
-  <li>Then use an inner `for` loop that also iterates `n - 1` times. If you use the index variable `i` here, make sure to use another variable in the `for` loop in step 1.</li>
-  <li>We now look at pairs of numbers. If `arr[i] > arr[i + 1]` then swap the two elements. You may need to use a temporary variable to do the swap.</li>
+  <li>You might want to start this by simply using an outer <code>for</code> loop that iterates <code>n - 1</code> times, which corresponds to <code>n - 1</code> passes through the array.</li>
+  <li>Then use an inner <code>for</code> loop that also iterates <code>n - 1</code> times. If you use the index variable <code>i</code> here, make sure to use another variable in the <code>for</code> loop in step 1.</li>
+  <li>We now look at pairs of numbers. If <code>arr[i] > arr[i + 1]</code> then swap the two elements. You may need to use a temporary variable to do the swap.</li>
 
 </ol>
 </details>
@@ -77,7 +77,7 @@ Once you have your function sorting properly, see if you can make it more effici
     </span>
   </summary>
 <br>
-  You may want to include a counter for the amount of swaps made. You can reset the counter to 0 just before you execute the inner `for` loop. After the inner loop is finished, check to see if `counter == 0`. If this is true there are no more swaps to be made and you can execute the `break` statement, which will terminate the outer loop.
+  You may want to include a counter for the amount of swaps made. You can reset the counter to 0 just before you execute the inner <code>for</code> loop. After the inner loop is finished, check to see if <code>counter == 0</code>. If this is true there are no more swaps to be made and you can execute the <code>break</code> statement, which will terminate the outer loop.
 </details>
 
 
