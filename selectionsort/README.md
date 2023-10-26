@@ -32,7 +32,7 @@ Even though we are doing fewer swaps with **selection sort** than we are in **bu
 Execute
 
 ```
-wget https://github.com/cs50nestm/cs50labs/blob/2022/selectionsort/selection.c
+wget https://raw.githubusercontent.com/cs50nestm/cs50labs/2022/selectionsort/selection.c
 ```
 
 to download this problem's distro code.
