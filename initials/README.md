@@ -14,36 +14,10 @@ Initials: RAB
 
 ## Getting Ready
 
-First, take a self-paced tour through a few coding examples that are likely to prove quite useful to you as you work on this and some future problems in this unit, the source code for which can be found in [this sandbox](http://bit.ly/2zPo948).
+First, take a look at the section of the Unit 2 Lecture Video where we learn more about how to use strings.
 
-Here is the first of those videos. Note: GetString() has been replaced with get_string("prompt").
+{% video [https://www.youtube.com/watch?v=BYbuuUntOZ4&feature=youtu.be&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU %](https://video.cs50.io/XmYnsO7iSI8?screen=5YGV1hcM_MY&start=5618)}
 
-{% video https://www.youtube.com/watch?v=BYbuuUntOZ4&feature=youtu.be&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU %}
-
-{% spoiler "More on strings" %}
-
-{% video https://www.youtube.com/watch?list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU&time_continue=2&v=a2n7vKdRWKE %}
-
-{% video https://www.youtube.com/watch?v=p1e_6lkMGDg&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU&index=17 %}
-
-{% endspoiler %}
-
-{% video https://www.youtube.com/watch?v=sELkIJyRHWg&index=5&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU %}
-
-{% spoiler "More on ASCII" %}
-
-{% video https://www.youtube.com/watch?v=ifCoAx0r3es&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU&index=6 %}
-
-{% endspoiler %}
-
-{% video https://www.youtube.com/watch?v=vp3TBL4WTbc&index=7&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU %}
-
-{% spoiler "More on Capitalize" %}
-
-{% video https://www.youtube.com/watch?v=h0hcz5zCBhU&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU&index=8 %}
-{% video https://www.youtube.com/watch?v=wYvnyO2PbT0&index=9&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU %}
-
-{% endspoiler %}
 
 ## Implementation Details
 
