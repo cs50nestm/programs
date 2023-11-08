@@ -93,18 +93,26 @@ Name: robert thomas bowden
 Initials: RTB
 ```
 
-{% spoiler "Hints" %}
+
+details>
+  <summary>
+    <span style="font-weight: bold;">
+    Write some code that you know will compile
+    </span>
+  </summary>
+<br>
 
 To iterate through a string, use a for loop like this:
 
-```c
-for (int i = 0; i < strlen(s); i++)
-{
-    // do something
-}
-```
+<code>for (int i = 0; i < strlen(s); i++)</code>
 
-{% endspoiler %}
+</details>
+
+
+
+
+
+
 
 ## How to Check
 
