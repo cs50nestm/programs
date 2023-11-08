@@ -63,7 +63,7 @@ First, write in pseudocode.txt at right some pseudocode that implements this pro
 <details>
   <summary>
     <span style="font-weight: bold;">
-    Write some code that you know will compile
+    Hint
     </span>
   </summary>
 <br>
@@ -94,10 +94,10 @@ Initials: RTB
 ```
 
 
-details>
+<details>
   <summary>
     <span style="font-weight: bold;">
-    Write some code that you know will compile
+    Hint
     </span>
   </summary>
 <br>
