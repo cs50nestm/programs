@@ -1,6 +1,27 @@
 # Initials
 
-{% video https://www.youtube.com/watch?v=UItYCp0Ivqg %}
+<style type="text/css">
+.iframe_container {
+	position: relative;
+	padding-bottom: 56.25%; 
+	padding-top: 25px;
+	height: 0;
+	margin-bottom: 30px;
+}
+
+.iframe_container iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+</style>
+
+<div class="iframe_container">
+  <iframe src="https://www.youtube.com/watch?v=UItYCp0Ivqg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 
 ## What to do?
 
@@ -16,7 +37,9 @@ Initials: RAB
 
 First, take a look at the section of the Unit 2 Lecture Video where we learn more about how to use strings.
 
-{% video [https://www.youtube.com/watch?v=BYbuuUntOZ4&feature=youtu.be&list=PLhQjrBD2T380sc-fXwl1sviA-twxFduVU %](https://video.cs50.io/XmYnsO7iSI8?screen=5YGV1hcM_MY&start=5618)}
+<div class="iframe_container">
+  <iframe src="https://video.cs50.io/XmYnsO7iSI8?screen=5YGV1hcM_MY&start=5618" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 
 ## Implementation Details
@@ -37,15 +60,21 @@ You may assume that the only spaces in the user’s input will be single spaces 
 
 First, write in pseudocode.txt at right some pseudocode that implements this program, even if not (yet!) sure how to write it in code. Remember a computer cannot see the entire name at one time like a human. Your program will have to analyze the name one character at a time.
 
-{% spoiler "Spoiler" %}
+<details>
+  <summary>
+    <span style="font-weight: bold;">
+    Write some code that you know will compile
+    </span>
+  </summary>
+<br>
 
-1. Start out by using get_string("Name: ") to promts a user for a name.
+1. Start out by using <code>get_string("Name: ")</code> to promts a user for a name.
 1. Using printf, print out "Initials: ". 
-1. Print out the first character of the name as an upper case char.
+1. Print out the first character of the name as an upper case char. You might find the function <code>toupper</code> in <code>ctype.h</code> helpful.
 1. Then iterate through the remaining characters of the string.
     1. Does the char you are looking at tell you then next char is an initial? If so, print out the next char using upper case.
 
-{% endspoiler %}
+</details>
 
 
 ## Usage
@@ -91,4 +120,6 @@ style50 initials.c
 
 ## How to Submit
 
-No need to submit! This is a practice problem. 
+```
+submit50 cs50nestm/checks/2022/initials
+```
