@@ -68,13 +68,12 @@ First, write in pseudocode.txt at right some pseudocode that implements this pro
     </span>
   </summary>
 <br>
-
-1. Start out by using <code>get_string("Name: ")</code> to promts a user for a name.
-1. Using printf, print out "Initials: ". 
-1. Print out the first character of the name as an upper case char. You might find the function <code>toupper</code> in <code>ctype.h</code> helpful.
-1. Then iterate through the remaining characters of the string.
-    1. Does the char you are looking at tell you then next char is an initial? If so, print out the next char using upper case.
-
+<ol>
+<li>Start out by using <code>get_string("Name: ")</code> to promts a user for a name.</li>
+<li>Using printf, print out "Initials: ". </li>
+<li>Print out the first character of the name as an upper case char. You might find the function <code>toupper</code> in <code>ctype.h</code> helpful.</li>
+<li>Then iterate through the remaining characters of the string. Does the char you are looking at tell you then next char is an initial? If so, print out the next char using upper case.</li>
+</ol>
 </details>
 
 
