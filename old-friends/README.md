@@ -26,7 +26,7 @@ wget https://raw.githubusercontent.com/cs50nestm/programs/main/old-friends/hello
 ```
 in order to download the distro code.
 
-You should now see `hello.c` in your `old-friend` folder.
+You should now see `hello.c` in your `old-friends` folder.
 
 How nice to see you again!
 
