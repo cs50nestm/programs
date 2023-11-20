@@ -8,7 +8,7 @@ C: 0
 F: 32.0
 ```
 
-In `fahrenheit.c` you will find a fully-functioning version of the code you were tasked with writing in that problem. Convert that program so that it accepts the Celsius temperature from the command line instead.
+In this program's distro code, `fahrenheit.c`, you will find a fully-functioning version of the code you were tasked with writing in that problem. Convert that program so that it accepts the Celsius temperature from the command line instead.
 
 ```
 $ ./fahrenheit 0
