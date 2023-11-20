@@ -83,7 +83,7 @@ Remember how to get started? You'll have to change the main function to be able 
   <br>
   </summary>
 
-	
+<br>	
 <p>Recall that our programs are capable of knowing information about what the user typed at the command line by modifying the way we write the start of our main function. Instead of</p>
 
 <img src="offCode1.png" width="100%">
@@ -94,6 +94,8 @@ Remember how to get started? You'll have to change the main function to be able 
 
 <p>we then have access to two special variables that we can use inside of main. First is <code>argc</code>, which is an integer variable that tells us how many things the user typed in at the command line, and second is <code>argv</code>, which is an array of strings representing exactly what the user typed.</p>
 </details>
+
+<br>	
 
 Remember how to check for the correct number of command line arguments?
 
