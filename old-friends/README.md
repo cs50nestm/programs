@@ -5,7 +5,7 @@ Improve upon older programs. This lab is the first of three that will convert th
 ```
 $ ./hello Milo
 Hello, Milo!
-``
+```
 
 ## Well Distributed
 
