@@ -71,7 +71,7 @@ wget https://raw.githubusercontent.com/cs50nestm/programs/main/old-friends-fahre
 
 to download your distro code.
 
-You should now see the orignial verison of `fahrenheit.c` in your `oldfriends` directory. Let's change it to use commandd-line arguments.
+You should now see the orignial verison of `fahrenheit.c` in your `oldfriends` directory. Let's change it to use command-line arguments.
 
 Remember how to get started? You'll have to change the main function to be able to accept command line arguments.
 
