@@ -8,7 +8,7 @@ C: 0
 F: 32.0
 ```
 
-In fahrenheit.c you will find a fully-functioning version of the code you were tasked with writing in that problem. Convert that program so that it accepts the Celsius temperature from the command line instead.
+In `fahrenheit.c` you will find a fully-functioning version of the code you were tasked with writing in that problem. Convert that program so that it accepts the Celsius temperature from the command line instead.
 
 ```
 $ ./fahrenheit 0
@@ -18,15 +18,15 @@ F: 32.0
 
 There’s a catch, though.
 
-Just because the user types a real number at the prompt, that doesn’t mean their input will be automatically stored in a float. Actually, it will be stored as a string that just so happens to look like an float; after all, remember the data type of argv? It’s an array where each element is a string! And so you’ll need to convert that string to an actual float. As luck would have it, a function, atof, exists for exactly that purpose! Here’s how you might use it:
+Just because the user types a real number at the prompt, that doesn’t mean their input will be automatically stored in a `float`. Actually, it will be stored as a string that just so happens to look like an float; after all, remember the data type of `argv`? It’s an array where each element is a `string`! And so you’ll need to convert that `string` to an actual float. As luck would have it, a function, `atof`, exists for exactly that purpose! Here’s how you might use it:
 
 ```c
 float celsius = atof(argv[1]);
 ```
 
-Notice, this time, we’ve declared celsius as an actual float so that you can do some arithmetic with it. Incidentally, you can assume that the user will only type real numbers at the command line.
+Notice, this time, we’ve declared `celsius` as an actual `float` so that you can do some arithmetic with it. Incidentally, you can assume that the user will only type real numbers at the command line.
 
-Because atof is declared in stdlib.h, you’ll want to #include that header file atop your own code. And, as with hello.c earlier, you’ll want to make sure the user provides exactly the correct number of command-line arguments to your program before doing any calculations, returning 1 should they fail to.
+Because `atof` is declared in `stdlib.h`, you’ll want to `#include` that header file atop your own code. And, as with `hello.c` earlier, you’ll want to make sure the user provides exactly the correct number of command-line arguments to your program before doing any calculations, returning 1 should they fail to.
 
 
 Here is Doug's short video on command-line arguments again in case you missed it in Old Friends: Hello!
@@ -53,6 +53,25 @@ Here is Doug's short video on command-line arguments again in case you missed it
   <iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="border" data-video="" src="https://www.youtube.com/embed/AI6Ccfno6Pk?si=nIteWlfkzUcaRLuV?modestbranding=0&amp;rel=0&amp;showinfo=0&amp;start=74" scrolling="no" id="iFrameResizer0" style="overflow: hidden;"></iframe>
 </div>
 
+## Getting Started
+
+First:
+
+```
+cd oldfriends
+```
+
+to change directories to the folder you created in your first `old-friends` program
+
+Then execute:
+
+```
+wget https://raw.githubusercontent.com/cs50nestm/programs/main/old-friends-fahrenheit/fahrenheit.c
+```
+
+to download your distro code.
+
+You should now see the orignial verison of `fahrenheit.c` in your `oldfriends` directory. Let's change it to use commandd-line arguments.
 
 Remember how to get started? You'll have to change the main function to be able to accept command line arguments.
 
@@ -71,7 +90,7 @@ Remember how to get started? You'll have to change the main function to be able 
 
 <img src="offCode2.png" width="100%">
 
-<p>we then have access to two special variables that we can use inside of main. First is argc, which is an integer variable that tells us how many things the user typed in at the command line, and second is argv, which is an array of strings representing exactly what the user typed.</p>
+<p>we then have access to two special variables that we can use inside of main. First is <code>argc</code>, which is an integer variable that tells us how many things the user typed in at the command line, and second is <code>argv</code>, which is an array of strings representing exactly what the user typed.</p>
 </details>
 
 Remember how to check for the correct number of command line arguments?
