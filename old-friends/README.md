@@ -23,8 +23,27 @@ How nice to see you again!
 
 Lastly, have a look at Doug’s short video on command-line arguments. Since we’ll be converting all three of the programs listed above to accept command-line arguments (none of them currently do!), this video should come in handy.
 
+<style type="text/css">
+.iframe_container {
+	position: relative;
+	padding-bottom: 56.25%; 
+	padding-top: 25px;
+	height: 0;
+	margin-bottom: 30px;
+}
 
-{% video https://youtu.be/AI6Ccfno6Pk %}
+.iframe_container iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+</style>
+
+<div class="iframe_container">
+  <iframe src="https://youtu.be/AI6Ccfno6Pk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 If you happen to see (and are confused by!) char * in this and other shorts, know for now that char * simply means string. But more on that soon!
 
