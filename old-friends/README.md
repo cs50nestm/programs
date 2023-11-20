@@ -13,11 +13,20 @@ Here’s some good news for you right off the bat: you’ve seen almost everythi
 
 Even better, to ensure everyone is on a level playing field while solving this problem, you’ll be using some "distribution code" (otherwise known as a "distro"), written by us, and make modifications to it. You’re welcome of course to use the code you wrote for a prior problem (if it worked!) and re-work it for this problem, but if you struggled with the problems we’ll be reimplementing this time around, know that we will otherwise be supplying you with fully-functional code. All you have to do is change the way that the user inputs data.
 
-When you click on your folder icon, you should indeed see your first old friend!
+First make a new folder by executing:
 
 ```
-hello.c
+mkdir oldfriends
 ```
+
+Then execute:
+
+```
+wget https://raw.githubusercontent.com/cs50nestm/programs/main/old-friends/hello.c
+```
+in order to download the distro code.
+
+You should now see `hello.c` in your `old-friend` folder.
 
 How nice to see you again!
 
