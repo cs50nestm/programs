@@ -80,8 +80,9 @@ Remember how to get started? You'll have to change the main function to be able 
     <span style="font-weight: bold;">
     Hints
     </span>
+  <br>
   </summary>
-<br>
+
 	
 <p>Recall that our programs are capable of knowing information about what the user typed at the command line by modifying the way we write the start of our main function. Instead of</p>
 
