@@ -64,15 +64,11 @@ Remember how to get started? You'll have to change the main function to be able 
   </summary>
   Recall that our programs are capable of knowing information about what the user typed at the command line by modifying the way we write the start of our main function. Instead of
 
-<code>
-int main(void)
-</code>
+<img src="offCode1.png" width="100%">
 
 if we start main off by typing
 
-<code>
-int main(int argc, string argv[])
-</code>
+<img src="offCode2.png" width="100%">
 
 we then have access to two special variables that we can use inside of main. First is argc, which is an integer variable that tells us how many things the user typed in at the command line, and second is argv, which is an array of strings representing exactly what the user typed.
 </details>
@@ -85,33 +81,9 @@ Remember how to check for the correct number of command line arguments?
     Hints
     </span>
   </summary>
-  Recall that our programs are capable of knowing information about what the user typed at the command line by modifying the way we write the start of our main function. Instead of
-
-<code>
-int main(void)
-</code>
-
-if we start main off by typing
-
-<code>
-int main(int argc, string argv[])
-</code>
-
-we then have access to two special variables that we can use inside of main. First is argc, which is an integer variable that tells us how many things the user typed in at the command line, and second is argv, which is an array of strings representing exactly what the user typed.
+ <img src="offCode3.png" width="100%">
 </details>
 
-
-```c
-if (argc != 2)
-{
-    printf("Usage: ./hello <celsius temp>\n");
-    return 1;
-}
-```
-  
-{% endspoiler %}
-
-{% next %}
 
 ## How to Test
 
