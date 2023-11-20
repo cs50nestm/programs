@@ -62,15 +62,16 @@ Remember how to get started? You'll have to change the main function to be able 
     Hints
     </span>
   </summary>
-  Recall that our programs are capable of knowing information about what the user typed at the command line by modifying the way we write the start of our main function. Instead of
+<br>
+  <p>Recall that our programs are capable of knowing information about what the user typed at the command line by modifying the way we write the start of our main function. Instead of</p>
 
 <img src="offCode1.png" width="100%">
 
-if we start main off by typing
+<p>if we start main off by typing</p>
 
 <img src="offCode2.png" width="100%">
 
-we then have access to two special variables that we can use inside of main. First is argc, which is an integer variable that tells us how many things the user typed in at the command line, and second is argv, which is an array of strings representing exactly what the user typed.
+<p>we then have access to two special variables that we can use inside of main. First is argc, which is an integer variable that tells us how many things the user typed in at the command line, and second is argv, which is an array of strings representing exactly what the user typed.</p>
 </details>
 
 Remember how to check for the correct number of command line arguments?
@@ -81,6 +82,7 @@ Remember how to check for the correct number of command line arguments?
     Hints
     </span>
   </summary>
+ <br>
  <img src="offCode3.png" width="100%">
 </details>
 
