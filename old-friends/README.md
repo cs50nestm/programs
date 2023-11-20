@@ -1,4 +1,4 @@
-# Old Friends: Hello
+# Old Friends: Hello!
 
 Improve upon older programs. This lab is the first of three that will convert three older programs to use command-line arguments.
 
