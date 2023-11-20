@@ -19,14 +19,20 @@ First make a new folder by executing:
 mkdir oldfriends
 ```
 
-Then execute:
+Then:
+
+```
+cd oldfriends
+```
+
+Finally execute:
 
 ```
 wget https://raw.githubusercontent.com/cs50nestm/programs/main/old-friends/hello.c
 ```
 in order to download the distro code.
 
-You should now see `hello.c` in your `old-friends` folder.
+You should now see `hello.c` in your `oldfriends` folder.
 
 How nice to see you again!
 
