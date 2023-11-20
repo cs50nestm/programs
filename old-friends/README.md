@@ -36,7 +36,7 @@ You should now see `hello.c` in your `oldfriends` folder.
 
 How nice to see you again!
 
-Lastly, have a look at Doug’s short video on command-line arguments. Since we’ll be converting all three of the programs listed above to accept command-line arguments (none of them currently do!), this video should come in handy.
+Lastly, have a look at Doug’s short video on command-line arguments. Since we’ll be converting two programs to accept command-line arguments (none of them currently do!), this video should come in handy.
 
 <style type="text/css">
 .iframe_container {
@@ -59,8 +59,6 @@ Lastly, have a look at Doug’s short video on command-line arguments. Since we�
 <div class="iframe_container">
   <iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="border" data-video="" src="https://www.youtube.com/embed/AI6Ccfno6Pk?si=nIteWlfkzUcaRLuV?modestbranding=0&amp;rel=0&amp;showinfo=0&amp;start=74" scrolling="no" id="iFrameResizer0" style="overflow: hidden;"></iframe>
 </div>
-
-If you happen to see (and are confused by!) char * in this and other shorts, know for now that char * simply means string. But more on that soon!
 
 
 ## Hello, again!
