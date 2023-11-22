@@ -123,7 +123,7 @@ printf("%c\n", argv[2][0]); // prints the first character of argv[2]
 And that also means we can compare `argv[2][0]` against a variety of possible values (such as `+`, `-`, `x`, `/` or `%`, for example) and make certain decisions in our program based on what that character is, perhaps by making use of some Boolean expressions and conditional statements. (Of course, since there are only a small number of characters that we care about in `argv[2][0]`, you might also find this a good opportunity to use a `switch` statement for perhaps the first time.)
 
 <details>
-  <summary style="margin-bottom: 16px;>
+  <summary style="margin-bottom: 16px;">
     <span style="font-weight: bold;">
     More on switch?
     </span>
