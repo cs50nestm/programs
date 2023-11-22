@@ -75,7 +75,8 @@ And that also means we can compare `argv[2][0]` against a variety of possible va
     </span>
   </summary>
 <br>
-
+<p>Note that this is an old (but good!) video which uses an older version of the coding environment, and an older version of `get_int`. The input funtion you see in the video (`GetInt`) has been discontinued.</p>
+  
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ch4I--dGpOM?si=nfL8CdPEDTB4H2BB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 </details>
