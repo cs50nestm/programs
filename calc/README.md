@@ -41,7 +41,7 @@ Recall that if we collect information from the user at the command line, we can 
 
 <p>Remember the number of command-line arguments, <code>argc</code> is just the number of words (or words and numbers) entered at the command line, including the program name itself!</p>
 
-</detaile>
+</details>
 
 If they fail to provide the correct number, your program should exit (possibly printing out an error message that tells them how they should have run the program) and `return 1`; so that we can automate testing of your code.
 
