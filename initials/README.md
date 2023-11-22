@@ -59,7 +59,7 @@ You may assume that the only spaces in the user’s input will be single spaces 
 
 ## Pseudocode
 
-First, write in pseudocode.txt at right some pseudocode that implements this program, even if not (yet!) sure how to write it in code. Remember a computer cannot see the entire name at one time like a human. Your program will have to analyze the name one character at a time.
+First, write some pseudocode as comments, even if not (yet!) sure how to write it in code. Remember a computer cannot see the entire name at one time like a human. Your program will have to analyze the name one character at a time.
 
 <details>
   <summary>
