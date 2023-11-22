@@ -63,8 +63,8 @@ code calc.c
 </style>
 
 <details>
-  <summary style="margin-bottom: 24px;">
-    <span style="font-weight: bold; margin-bottom: 24px;">
+  <summary style="margin-bottom: 16px;">
+    <span style="font-weight: bold;">
     Want a refresher on command line arguments and arrays?
     </span>
     <br>
@@ -87,11 +87,10 @@ And here is a short on arrays!
 Recall that if we collect information from the user at the command line, we can use two special parameters passed into `main` (conventionally called `argc` and `argv`) which represent the number of arguments the user provided and the actual data the user provided, respectively. Given the example use case above, how many command-line arguments is the user expected to provide?
 
 <details>
-  <summary>
+  <summary style="margin-bottom: 16px;">
     <span style="font-weight: bold;">
     Hint
     </span>
-    <br>
   </summary>
 
 <p>Remember the number of command-line arguments, <code>argc</code> is just the number of words (or words and numbers) entered at the command line, including the program name itself!</p>
