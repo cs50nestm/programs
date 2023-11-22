@@ -86,8 +86,6 @@ Note above that we suggest using a lowercase `x` instead of the typical asterisk
 
 Once you’ve performed the arithmetic, just print out the result to the user on its own line, so we can automate testing of your code. By default, C will print out floating point values to six decimal places. Might as well leave it that way, there’s plenty to do otherwise in this problem!
 
-{% next %}
-
 
 ## The Mod Squad
 If you’re reading this section after you’ve already tried to implement modulo (`%`) in your calculator, you’ve likely noticed an error when compiling that looks something like the following:
@@ -135,8 +133,6 @@ mod = 0.86
 
 So that is one way to implement the modulo operator by using other operators that C has defined for floats. To be sure, there are others, but this one should do the trick!
 
-{% next %}
-
 ## Subtract the Confusion
 To be clear, you may make the following assumptions with respect to your calculator.
 
@@ -148,14 +144,32 @@ To be clear, you may make the following assumptions with respect to your calcula
 
 You needn’t worry about floating-point imprecision with your calculator, and you needn’t print out the correct answer to more than six decimal places.
 
-{% next %}
 
 ## Pseudocode
 
-Let's break this down into small steps. Write in the file pseudocode.txt how you think you should break this program down.
+Let's break this down into small steps. First write some pseudocode as comments to determine how to get started.
 
-{% spoiler "Spoiler" %}
+<details>
+  <summary>
+    <span style="font-weight: bold;">
+    Spoiler
+    </span>
+  </summary>
+<br>
 
+<p>Here are some suggestions!</p>
+<ol>
+  <li>Start out by checking for the correct number of command line arguments</li>
+  <li>Save `argv[1]` as a float in a new float varialbe (i.e. `float a = atof(argv[1])`)</li>
+  <li>Save the second numeric arguement (the 3 in the example above) in another float variable (possibly b)</li>
+  <li>Save the first character in the operator (`argv[2][0]`) in a `char` for easy comparison (you can't easily compare two `strings` in C)</li>
+  <li>Use an if...else statement (or a switch statement!) to determine which operator this `char` represents so you can perform the appropriate operation.</li>
+  <li>Finally, print the output as a float. No need to control the number of decimal places.</li>
+</ol>
+
+</details>
+
+<!--  
 Remember the program works by typing in:
 
 ```
@@ -165,18 +179,8 @@ Remember the program works by typing in:
 where `2` and `3` need to be converted from `strings` into two `floats`, and the operation, here `+`, could be not only `+` but also `-`, `x` (times), `/`, or `%` (modulo).
 
 So:
+-->
 
-1. Start out by checking for the correct number of command line arguments
-1. Save `argv[1]` as a float in a new float varialbe (i.e. `float a = atof(argv[1])`)
-1. Save the second numeric arguement (the 3 in the example above) in another float variable (possibly b)
-1. Save the first character in the operator (`argv[2][0]`) in a `char` for easy comparison (you can't easily compare two `strings` in C)
-1. Use an if...else statement (or a switch statement!) to determine which operator this `char` represents so you can perform the appropriate operation.
-1. Finally, print the output as a float. No need to control the number of decimal places.
-
-{% endspoiler %}
-
-
-{% next %}
 
 ## Usage
 
@@ -202,7 +206,7 @@ $ ./calc 8 % 5
 ## Testing
 
 ### Correctness
-If you’d like to check the correctness of your program with check50, you may execute the below.
+If you’d like to check the correctness of your program with `check50`, you may execute the below.
 
 ```
 check50 cs50/problems/2019/ap/calc
@@ -217,9 +221,14 @@ style50 calc.c
 
 ## How to Submit
 
-Execute the below, logging in with your GitHub username and password when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your password.
+In your terminal, execute the below to submit your work.
 
 ```
 submit50 cs50/problems/2019/ap/calc
 ```
-inputting your GitHub username and GitHub password as prompted.
+
+You may resubmit any problem as many times as you’d like before the deadline.
+
+Your submission should be graded for correctness within 2 minutes, at which point your score will appear at [submit.cs50.io](https://submit.cs50.io)!
+
+This was Calc.
