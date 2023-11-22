@@ -31,7 +31,7 @@ Notice that unlike many other programs you’ve likely written up to this point,
 
 <!-- ![calcMovie](calcMovie.gif) -->
 
-<img href="calcMovie.gif" alt="Calc Demo" width="100%">
+<img src="calcMovie.gif" alt="Calc Demo" width="100%">
 
 
 ## Implementation Details
