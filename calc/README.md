@@ -108,7 +108,7 @@ If they fail to provide the correct number, your program should exit (possibly p
 
 Assuming we have the right number of command-line arguments, we’re well on our way. There’s a catch, though.
 
-Just because the user types a real number at the command line, that doesn’t mean their input will be automatically stored in a `float`. Actually, it will be stored as a `string` that just so happens to look like an `float`; after all, remember the data type of `argv`? It’s an array where each element is a `string`! And so you’ll need to convert that `string` to an actual `float`. As luck would have it, a function, `atof`, exists for exactly that purpose! Here’s how you might use it:
+Just because the user types a real number at the command line, that doesn’t mean their input will be automatically stored in a `float`. Actually, it will be stored as a `string` that just so happens to look like an `float`; after all, remember the data type of `argv`? It’s an array where each element is a `string`! And so you’ll need to convert that `string` to an actual `float`. As luck would have it, a function, `atof`,exists (it's in `stdlib.h`) for exactly that purpose! Here’s how you might use it:
 
 ```c
 float a = atof(argv[1]);
