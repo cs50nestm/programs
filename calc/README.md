@@ -29,6 +29,19 @@ Notice that unlike many other programs you’ve likely written up to this point,
 
 ## Implementation Details
 
+First, create a `calc` directory by typing:
+
+```
+mkdir calc
+```
+
+Next create a new file entitled calc.c in your calc directory.
+
+```
+cd calc
+code calc.c
+```
+
 Recall that if we collect information from the user at the command line, we can use two special parameters passed into `main` (conventionally called `argc` and `argv`) which represent the number of arguments the user provided and the actual data the user provided, respectively. Given the example use case above, how many command-line arguments is the user expected to provide?
 
 <details>
