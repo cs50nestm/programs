@@ -27,6 +27,11 @@ such that the user can perform all five of the basic math operations that C perm
 
 Notice that unlike many other programs you’ve likely written up to this point, and just like Old Friends, users are not entering any information after the program has started running. Rather, they are providing all of their input to the program at the command line, before the program has begun.
 
+## Demo
+
+![calcMovie](calcMovie.gif)
+
+
 ## Implementation Details
 
 First, create a `calc` directory by typing:
