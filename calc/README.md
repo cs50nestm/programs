@@ -63,7 +63,7 @@ code calc.c
 </style>
 
 <details>
-  <summary>
+  <summary style="margin-bottom: 24px;">
     <span style="font-weight: bold; margin-bottom: 24px;">
     Want a refresher on command line arguments and arrays?
     </span>
