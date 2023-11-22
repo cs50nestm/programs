@@ -1,10 +1,6 @@
 # Calc
 
-{% video https://www.youtube.com/watch?v=bcPPCgPPjDg&feature=youtu.be %}
-
-{% next %}
-
-## What to do?
+## tl;dr
 
 Implement a program that implements a command line calculator.
 
@@ -12,8 +8,6 @@ Implement a program that implements a command line calculator.
 $ ./calc 50 x 28
 1400.000000
 ```
-
-{% next %}
 
 ## Divide and Conquer
 In this problem, you will be tasked with implementing a very simple command-line based calculator program. Your program will accept inputs like this, and output the result as a float:
@@ -33,17 +27,21 @@ such that the user can perform all five of the basic math operations that C perm
 
 Notice that unlike many other programs you’ve likely written up to this point, and just like Old Friends, users are not entering any information after the program has started running. Rather, they are providing all of their input to the program at the command line, before the program has begun.
 
-{% next %}
-
 ## Implementation Details
 
 Recall that if we collect information from the user at the command line, we can use two special parameters passed into `main` (conventionally called `argc` and `argv`) which represent the number of arguments the user provided and the actual data the user provided, respectively. Given the example use case above, how many command-line arguments is the user expected to provide?
 
-{% spoiler "Hint" %}
+<details>
+  <summary>
+    <span style="font-weight: bold;">
+    Hint
+    </span>
+  </summary>
+<br>
 
-Remember the number of command-line arguments is just the number of words (or words and numbers) entered at the command line, including the program name itself!
+<p>Remember the number of command-line arguments, <code>argc</code> is just the number of words (or words and numbers) entered at the command line, including the program name itself!</p>
 
-{% endspoiler %}
+</detaile>
 
 If they fail to provide the correct number, your program should exit (possibly printing out an error message that tells them how they should have run the program) and `return 1`; so that we can automate testing of your code.
 
@@ -70,11 +68,17 @@ printf("%c\n", argv[2][0]); // prints the first character of argv[2]
 
 And that also means we can compare `argv[2][0]` against a variety of possible values (such as `+`, `-`, `x`, `/` or `%`, for example) and make certain decisions in our program based on what that character is, perhaps by making use of some Boolean expressions and conditional statements. (Of course, since there are only a small number of characters that we care about in `argv[2][0]`, you might also find this a good opportunity to use a `switch` statement for perhaps the first time.)
 
-{% spoiler "more on switch" %}
+<details>
+  <summary>
+    <span style="font-weight: bold;">
+    More on switch?
+    </span>
+  </summary>
+<br>
 
-{% video https://www.youtube.com/watch?v=ch4I--dGpOM %}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ch4I--dGpOM?si=nfL8CdPEDTB4H2BB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-{% endspoiler %}
+</details>
 
 
 Note above that we suggest using a lowercase `x` instead of the typical asterisk used to represent multiplication. The reason for that is that the asterisk means something special at the command line, and so ordinarily it will not be processed correctly. So just be sure when you encounter an `x` at the command line that you actually perform a multiplication!
