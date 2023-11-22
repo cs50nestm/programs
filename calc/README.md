@@ -29,7 +29,7 @@ Notice that unlike many other programs you’ve likely written up to this point,
 
 ## Demo
 
-<-- ![calcMovie](calcMovie.gif) -->
+<!-- ![calcMovie](calcMovie.gif) -->
 
 <img href="calcMovie.gif" alt="Calc Demo" width="100%">
 
