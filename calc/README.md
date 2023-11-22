@@ -128,7 +128,7 @@ And that also means we can compare `argv[2][0]` against a variety of possible va
     More on switch?
     </span>
   </summary>
-<br>
+
 <p>Note that this is an old (but good!) video which uses an older version of the coding environment, and an older version of `get_int`. The input funtion you see in the video (`GetInt`) has been discontinued.</p>
 
 <div class="iframe_container">
