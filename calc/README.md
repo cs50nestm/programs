@@ -67,8 +67,9 @@ code calc.c
     <span style="font-weight: bold;">
     Want a refresher on command line arguments and arrays?
     </span>
+    <br>
   </summary>
-<br>
+
 	
 <p>Though we’ll remind you of the existence of this video many times throughout the problems in this unit, be sure to have a look at Doug’s short video on command-line arguments.</p>
 
@@ -90,8 +91,8 @@ Recall that if we collect information from the user at the command line, we can 
     <span style="font-weight: bold;">
     Hint
     </span>
+    <br>
   </summary>
-<br>
 
 <p>Remember the number of command-line arguments, <code>argc</code> is just the number of words (or words and numbers) entered at the command line, including the program name itself!</p>
 
