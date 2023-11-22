@@ -42,7 +42,7 @@ cd calc
 code calc.c
 ```
 
-Though we’ll remind you of the existence of this video many times throughout the problems in this unit, be sure to have a look at Doug’s short video on command-line arguments.
+
 
 <style type="text/css">
 .iframe_container {
@@ -62,16 +62,26 @@ Though we’ll remind you of the existence of this video many times throughout t
 }
 </style>
 
+<details>
+  <summary>
+    <span style="font-weight: bold;">
+    Want a refresher on command line arguments and arrays?
+    </span>
+  </summary>
+<br>
+	
+<p>Though we’ll remind you of the existence of this video many times throughout the problems in this unit, be sure to have a look at Doug’s short video on command-line arguments.</p>
+
 <div class="iframe_container">
   <iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="border" data-video="" src="https://www.youtube.com/embed/AI6Ccfno6Pk?si=nIteWlfkzUcaRLuV?modestbranding=0&amp;rel=0&amp;showinfo=0&amp;start=74" scrolling="no" id="iFrameResizer0" style="overflow: hidden;"></iframe>
 </div>
 
-The shorts on arrays wouldn’t hurt either, if you want a refresher.
+And here is a short on arrays!
 
 <div class="iframe_container">
   <iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="border" data-video="" src="https://www.youtube.com/embed/YdSycMcxvY0?si=nIteWlfkzUcaRLuV?modestbranding=0&amp;rel=0&amp;showinfo=0&amp;start=74" scrolling="no" id="iFrameResizer0" style="overflow: hidden;"></iframe>
 </div>
-
+</details>
 
 Recall that if we collect information from the user at the command line, we can use two special parameters passed into `main` (conventionally called `argc` and `argv`) which represent the number of arguments the user provided and the actual data the user provided, respectively. Given the example use case above, how many command-line arguments is the user expected to provide?
 
@@ -120,8 +130,11 @@ And that also means we can compare `argv[2][0]` against a variety of possible va
   </summary>
 <br>
 <p>Note that this is an old (but good!) video which uses an older version of the coding environment, and an older version of `get_int`. The input funtion you see in the video (`GetInt`) has been discontinued.</p>
+
+<div class="iframe_container">
+  <iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="border" data-video="" src="https://www.youtube.com/embed/ch4I--dGpOM?si=nIteWlfkzUcaRLuV?modestbranding=0&amp;rel=0&amp;showinfo=0&amp;start=74" scrolling="no" id="iFrameResizer0" style="overflow: hidden;"></iframe>
+</div>
   
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ch4I--dGpOM?si=nfL8CdPEDTB4H2BB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 </details>
 
