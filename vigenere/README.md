@@ -95,6 +95,7 @@ $ ./vigenere 123
 Usage: ./vigenere keyword
 ```
 
+<!--
 <details>
   <summary style="margin-bottom: 16px;">
     <span style="font-weight: bold;">
@@ -108,6 +109,7 @@ Usage: ./vigenere keyword
 <li>Recall that the <code>ctype.h</code> header file contains a number of useful functions that tell us things about characters. See [CS50 Reference](https://reference.cs50.net/)'s menu for some!</li>
 </ul>
 </details>
+-->
 
 <details>
   <summary style="margin-bottom: 16px;">
