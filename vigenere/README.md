@@ -91,6 +91,8 @@ and execute
 wget https://raw.githubusercontent.com/cs50nestm/programs/main/vigenere/vigenere.c
 ```
 
+Now you can open the file, `vigenere.c` where you will type your code for this problem set. 
+
 ## Déjà vu
 
 As you may have gleaned already, the basic idea for this cipher is strikingly similar to the idea underlying Caesar's cipher. As such, our code from Caesar seems like a good place to begin, so feel free to start by replacing the entire contents of `vigenere.c`, with your solution to `caesar.c`.
