@@ -70,8 +70,26 @@ or for when they provide too many keywords:
 $ ./vigenere bacon and eggs
 Usage: ./vigenere keyword
 ```
-How to begin? Let's start with something familiar.
+How to begin? 
 
+## Getting Started
+
+First, create a `vigenere` directory by typing:
+
+```
+mkdir vigenere
+```
+
+Then type
+
+```
+cd vigenere
+```
+and execute
+
+```
+wget https://raw.githubusercontent.com/cs50nestm/programs/main/vigenere/vigenere.c
+```
 
 ## Déjà vu
 
