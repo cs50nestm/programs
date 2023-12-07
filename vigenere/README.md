@@ -21,8 +21,6 @@
 <div class="iframe_container">
   <iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="border" data-video="" src="https://www.youtube.com/embed/L7d2-lcfOz0?si=nIteWlfkzUcaRLuV?modestbranding=0&amp;rel=0&amp;showinfo=0&amp;start=74" scrolling="no" id="iFrameResizer0" style="overflow: hidden;"></iframe>
 </div>
-</details>
-
 
 ## Ooh, la la!
 
@@ -166,13 +164,14 @@ Your program should print a 0 if run with the keyword `A` or `a`. Try running th
   </summary>
 
 <ul>
-<li>Functions have inputs and outputs.</li>
-<li>When we *declare* a function, we need to provide its return type, name, and an argument list, each of which also has a type.</li>
-<li>When we *use* or *call* a function, we just plug in appropriate values in the argument list, and assign the output of the function to a variable that corresponds to the function's return type.</li>
-<li>If <code>argv[1]</code> is a string, then `argv[1][0]` is just the first character of that string.</li>
-<li>Recall that the <code>ctype.h</code> header file contains a number of useful functions that tell us things about characters.</li>
-<li>The ASCII value of <code>A</code> is 65. The ASCII value of <code>a</code> is 97.</li>
-<li>The ASCII value of <code>B</code> is 66. The ASCII value of <code>b</code> is 98. See a potential pattern emerging?</li>
+	<li>Functions have inputs and outputs.</li>
+	<li>When we <b>declare</b> a function, we need to provide its return type, name, and an argument list, each of which also has a type.</li>
+	<li>When we <b>use</b> or <b>call</b> a function, we just plug in appropriate values in the argument list, and assign the output of the function to a variable that corresponds to the function's return type.</li>
+	<li>If <code>argv[1]</code> is a string, then <code>argv[1][0]</code> is just the first character of that string.</li>
+	<li>Recall that the <code>ctype.h</code> header file contains a number of useful functions that tell us things about characters.</li>
+	<li>The ASCII value of <code>A</code> is 65. The ASCII value of <code>a</code> is 97.</li>
+	<li>The ASCII value of <code>B</code> is 66. The ASCII value of <code>b</code> is 98. See a potential pattern emerging?</li>
+</ul>
 </details>
 
 
