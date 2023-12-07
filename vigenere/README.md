@@ -130,8 +130,8 @@ Your program should print a 0 if run with the keyword `A` or `a`. Try running th
 <li>When we *use* or *call* a function, we just plug in appropriate values in the argument list, and assign the output of the function to a variable that corresponds to the function's return type.</li>
 <li>If <code>argv[1]</code> is a string, then `argv[1][0]` is just the first character of that string.</li>
 <li>Recall that the <code>ctype.h</code> header file contains a number of useful functions that tell us things about characters.</li>
-<li>The ASCII value of <code>A</code> is 65. The ASCII value of `a` is 97.</li>
-<li>The ASCII value of <code>B</code> is 66. The ASCII value of `b` is 98. See a potential pattern emerging?</li>
+<li>The ASCII value of <code>A</code> is 65. The ASCII value of <code>a</code> is 97.</li>
+<li>The ASCII value of <code>B</code> is 66. The ASCII value of <code>b</code> is 98. See a potential pattern emerging?</li>
 </details>
 
 
@@ -161,13 +161,16 @@ plaintext:  HeLlO
 ciphertext: JgNnQ
 ```
 
-{% spoiler "Hints" %}
+<details>
+  <summary style="margin-bottom: 16px;">
+    <span style="font-weight: bold;">
+    Hint
+    </span>
+  </summary>
 
 If some of your variables in your Caesar solution don't match what they've been called so far in this lab, just edit the names of things so they do match!
 
-{% endspoiler %}
-
-{% next %}
+</detaile>
 
 ## Final Steps
 
@@ -177,15 +180,22 @@ Remember also that every time you encipher a character, you need to move to the 
 
 And as before, be sure to preserve case, but do so only based on the case of the original message. Whether or not a letter in the keyword is capitalized should have no bearing on whether a letter in the ciphertext is!
 
-{% spoiler "Hints" %}
+<details>
+  <summary style="margin-bottom: 16px;">
+    <span style="font-weight: bold;">
+    Hint
+    </span>
+  </summary>
+  
+<ul>
+  
+<li>You'll probably need one counter, <code>i</code> for iterating over the plaintext and one counter, <code>j</code> for iterating over the keyword.</li>
+<li>You'll probably find it easiest to control the keyword counter yourself, rather than relying on the <code>for</code> loop you're using to iterate over the plaintext!</li>
+<li>If the length of the keyword is, say, 4 characters, then the last character of that keyword can be found at <code>keyword[3]</code>. Then, for the next character you encipher, you'll want to use <code>keyword[0]</code>.</li>
+  
+</ul>  
+</details>
 
-* You'll probably need one counter, `i` for iterating over the plaintext and one counter, `j` for iterating over the keyword.
-* You'll probably find it easiest to control the keyword counter yourself, rather than relying on the `for` loop you're using to iterate over the plaintext!
-* If the length of the keyword is, say, 4 characters, then the last character of that keyword can be found at `keyword[3]`. Then, for the next character you encipher, you'll want to use `keyword[0]`.
-
-{% endspoiler %}
-
-{% next %}
 
 ## How to Submit
 
