@@ -222,11 +222,29 @@ And as before, be sure to preserve case, but do so only based on the case of the
 </ul>  
 </details>
 
+## Testing
+
+### Correctness
+
+```
+check50 cs50/problems/2019/ap/vigenere
+```
+
+### Style
+
+```
+style50 vigenere.c
+```
 
 ## How to Submit
 
-Execute the below, logging in with your GitHub username and password when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your password.
-
+In your terminal, execute the below to submit your work.
 ```
 submit50 cs50/2018/ap/vigenere
 ```
+
+You may resubmit any problem as many times as you’d like before the deadline.
+
+Your submission should be graded for correctness within 2 minutes, at which point your score will appear at [submit.cs50.io](https://submit.cs50.io)!
+
+This was Vigenère.
