@@ -170,7 +170,7 @@ ciphertext: JgNnQ
 
 If some of your variables in your Caesar solution don't match what they've been called so far in this lab, just edit the names of things so they do match!
 
-</detaile>
+</details>
 
 ## Final Steps
 
