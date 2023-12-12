@@ -274,7 +274,7 @@ style50 vigenere.c
 
 In your terminal, execute the below to submit your work.
 ```
-submit50 cs50/2018/ap/vigenere
+submit50 cs50/problems/2019/ap/vigenere
 ```
 
 You may resubmit any problem as many times as you’d like before the deadline.
