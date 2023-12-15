@@ -225,7 +225,7 @@ Let's break this down into small steps. First write some pseudocode as comments 
   <li>Save <code>argv[1]</code> as a float in a new float varialbe (i.e. <code>float a = atof(argv[1])</code>)</li>
   <li>Save the second numeric arguement (the 3 in the example above) in another float variable (possibly <code>b</code>)</li>
   <li>Save the first character in the operator (<code>argv[2][0]</code>) in a <code>char</code> for easy comparison (you can't easily compare two <code>strings</code> in C)</li>
-  <li>Use an <code>if...else</code> statement (or a <codeswitch</code> statement!) to determine which operator this <code>char</code> represents so you can perform the appropriate operation.</li>
+  <li>Use an <code>if...else</code> statement (or a <code>switch</code> statement!) to determine which operator this <code>char</code> represents so you can perform the appropriate operation.</li>
   <li>Finally, print the output as a <code>float</code>. No need to control the number of decimal places.</li>
 </ol>
 
