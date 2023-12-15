@@ -114,16 +114,7 @@ float a = atof(argv[1]);
 
 There are two values that need to be converted from a `string` to a `float` (`argv[1]` and `argv[3]`, specifically). So that just leaves dealing with the operator. Recall from the shorts on arrays and strings that a string in C is really just an array of characters. And we can access individual elements of an array by using square bracket notation to **index** into that array.
 
-```c
-string s = "Calculator";
-printf("%c\n", s[0]); // prints 'C'
-```
-
-Similarly, if we have another `string` which just so happens to be called `argv[2]` can we index into its first element, which will be a single character (`char`).
-
-```c
-printf("%c\n", argv[2][0]); // prints the first character of argv[2]
-```
+So, if we have another `string` which just so happens to be called `argv[2]` can we index into its first element (`argv[2][0]`), which will be a single character (`char`).
 
 And that also means we can compare `argv[2][0]` against a variety of possible values (such as `+`, `-`, `x`, `/` or `%`, for example) and make certain decisions in our program based on what that character is, perhaps by making use of some Boolean expressions and conditional statements. (Of course, since there are only a small number of characters that we care about in `argv[2][0]`, you might also find this a good opportunity to use a `switch` statement for perhaps the first time.)
 
