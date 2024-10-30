@@ -155,17 +155,8 @@ NO
   </summary>
 <br>
 <p>Write some psuedocode before writing more code</p>
-  
 
-```c
-#include <cs50.h>
-#include <stdio.h>
-
-int main(void)
-{
-
-}
-```
+```c  
 #include <cs50.h>
 #include <stdio.h>
 
