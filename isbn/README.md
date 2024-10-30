@@ -156,6 +156,7 @@ NO
 <br>
 <p>Write some psuedocode before writing more code</p>
 
+<!-- 
 ```c  
 #include <cs50.h>
 #include <stdio.h>
@@ -178,6 +179,8 @@ int main(void)
         // print NO
 }
 ```
+-->
+<img src="code1.png" width="100%">
 </details>
 
 ## Testing
