@@ -146,6 +146,52 @@ ISBN: 5558675309
 NO
 ```
 
+## Advice
+<details>
+  <summary>
+    <span style="font-weight: bold;">
+    Not sure where to start?
+    </span>
+  </summary>
+<br>
+<p>Write some psuedocode before writing more code</p>
+  
+
+```c
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+{
+
+}
+```
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+{
+    // Prompt for a long ISBN
+
+    // Initialize a variable to hold the sum
+
+    // Loop through ISBN 10 times
+        // Use % 10 to get units place
+        // Multiply units place first times 10, then 9, etc.
+        // Add each product to sum
+        // Divide ISBN by 10 to eliminate units place
+
+    // If the sum mod 11 == 0
+        // print YES
+    // else
+        // print NO
+}
+
+
+<!--  <img src="code1.png" width="100%">-->
+
+</details>
+
 ## Testing
 ### Correctness
 
