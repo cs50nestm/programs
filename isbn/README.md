@@ -177,10 +177,7 @@ int main(void)
     // else
         // print NO
 }
-
-
-<!--  <img src="code1.png" width="100%">-->
-
+```
 </details>
 
 ## Testing
